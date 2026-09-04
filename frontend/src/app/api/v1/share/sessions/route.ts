@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { store } from '../../../../_store';
+import { store } from '../../../_store';
 
 export async function GET() {
   return NextResponse.json({ success: true, data: { sessions: store.sessions } });
