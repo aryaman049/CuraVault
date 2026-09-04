@@ -5,3 +5,5 @@ node_modules/
 tmp-uploads/
 *.log
 .DS_Store
+apply-ui.sh
+setup-backend.sh
